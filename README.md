@@ -26,6 +26,8 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 
 ## Fuente de datos
 
+Endpoint base: https://demo.thegrouplab.com/api
+
 #### POST /login
 
 ##### Request body:
