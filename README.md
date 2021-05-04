@@ -26,6 +26,8 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 
 ## Fuente de datos
 
+A continuación se detallan los endpoints, el contenido de sus solicitudes y el contenido de sus respuestas.
+También se puede hacer uso de este [Postman Collection](https://drive.google.com/file/d/1Nj4Qe9GDWc63kf7WW77i-xj56TDlcUfd/view?usp=sharing) que concentra la misma información.
 Endpoint base: https://demo.thegrouplab.com/api
 
 #### POST /login
