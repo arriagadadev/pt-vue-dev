@@ -29,7 +29,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 #### POST /login
 
 ##### Request body:
-```json
+```javascript
 {
     "email": "test@user.com",
     "password": "password"
@@ -37,7 +37,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 ```
 
 ##### Response:
-```json
+```javascript
 {
     "user": {
         "id": 1,
@@ -57,7 +57,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 #### GET /devices
 
 ##### Response:
-```json
+```javascript
 {
     "current_page": 1,
     "data": [
@@ -119,7 +119,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 #### POST /device
 
 ##### Body request:
-```json
+```javascript
 {
     "identifier": "DeviceIdentifier123", //required
     "mac": "DeviceMAC123",
@@ -131,7 +131,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 }
 ```
 ##### Response:
-```json
+```javascript
 {
     "identifier": "DeviceIdentifier123",
     "mac": "DeviceMAC123",
@@ -151,7 +151,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 #### PUT /device
 
 ##### Body request:
-```json
+```javascript
 {
     "id": 9, //required
     "identifier": "DeviceIdentifier1234", //required
@@ -164,7 +164,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 }
 ```
 ##### Response:
-```json
+```javascript
 {
     "id": 9,
     "identifier": "DeviceIdentifier1234",
@@ -186,7 +186,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 #### DELETE /device/{device_id}
 
 ##### Response:
-```json
+```javascript
 {
     "message": "The device was deleted successfully"
 }
@@ -195,7 +195,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 #### GET /technology-types
 
 ##### Response:
-```json
+```javascript
 [
     {
         "id": 1,
@@ -227,7 +227,7 @@ Crear una app web que contenga un CRUD de dispositivos, haciendo uso de la API R
 #### GET /device-types
 
 ##### Response:
-```json
+```javascript
 [
     {
         "id": 1,
